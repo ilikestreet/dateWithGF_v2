@@ -11,7 +11,7 @@
 		#date {
 			text-align: center;
 			margin-left: auto;
-			margin-top: 25%;
+			margin-top: 20%;
 			color: #f558ac;
 		}
 		
@@ -20,15 +20,27 @@
 			padding-top: 50px;
 			margin-right: 20%;
 		}	
+
+		#replyBlock {
+			position: fixed;
+			bottom: 0;
+			right: 45%;
+
+		}
 	</style>
 	<script src="counter.js" type="text/javascript"></script>
 </head>
 <body>
-	<div id="date">Loading....</div>
+	
+	<div id="date">Loading...</div>
 	<div id="signature">
 		<span>Credited</span>
 		<span>by</span>
 		<span> Johnny Zhang</span>
+	</div>
+	<div id="replyBlock">
+		<input id="numberOfReply" type="number" placeholder="Number Of Reply">
+		<input type="submit">
 	</div>
 </body>
 </html>
